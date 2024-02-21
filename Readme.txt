@@ -12,3 +12,4 @@ Passo a passo para a instalação do Cypress e rodar o teste:
     10- Escolha o navegador de sua preferencia e clique em Start E2E Testing in "nome do navegador escolhido"
     11- Em seguida abrirá outra janela contendo todos os testes a serem startados.
     12- Escolha o teste a ser iniciado e clique no nome dele que automaticamente ele será iniciado.
+    13- Para dúvidas sobre instalação do Cypress segue o link de apoio: https://medium.com/@lsluandersonalmeida/tutorial-de-instala%C3%A7%C3%A3o-do-cypress-no-windows-23dfeaa8d621
