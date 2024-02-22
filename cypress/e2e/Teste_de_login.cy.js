@@ -44,11 +44,11 @@ describe('validar Login de usuários', () => {
     cy.contains('*E-mail ou senha inválidos').should('be.visible');
   })
 
+
   it('Validar link de recuperação de senha', () => {    
     cy.contains('Esqueceu a senha?').click();
     cy.contains('Recuperar Senha').should('be.visible');
   })
-
 
 
 })

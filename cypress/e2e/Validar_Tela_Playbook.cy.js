@@ -11,7 +11,7 @@ describe('validar tela do Playbook', () => {
     cy.get('.flex:nth-child(2) > .w-full').click();
     cy.get('.flex:nth-child(2) > .w-full').type(Cypress.env('password1'));
     cy.get('.bg-orange-500').click();
-    cy.wait(5000);
+    cy.wait(3000);
     cy.contains('Materiais').should('be.visible');
     cy.contains('Conteúdos').click();
     cy.contains('Playbook').click();
