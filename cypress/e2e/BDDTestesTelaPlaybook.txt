@@ -1,0 +1,22 @@
+validar tela do Playbook
+
+Validar acesso a página do Playbook:
+Dado:Que o usuário já esteja logado na tela de materiais e queira ir para a tela do playbook
+Quando: ele clicar em conteúdos e clicar em playbook
+Então: ele será levado a tela do Playbook
+
+Validar busca por conteúdo existente:
+Dado: que o usuário esteja na tela do playbook e queira realizar uma pesquisa 
+Quando: ele clicar no campo de pesquisa e digitar o conteúdo desejado
+Enão: será retornado somente o conteúdo pesquisado
+
+Validar editar texto no playbook:
+Dado: Dado: que o usuário queira editar um texto no playbook
+Quando ele clicar no botão azul no topo direito da tela com o símbolo de um lápiz
+Então ele entrará no modo de edição de texto, assim que finalizar a edição ele novamente 
+terá que clicar no botão azul no topo direito com símbolo de um olho e será salvo o conteúdo editado.
+
+Validar busca por conteúdo inexistente
+Dado: que o usuário esteja na tela do playbook e queira realizar uma pesquisa de um conteúdo que não exista
+Quando: ele clicar no campo de pesquisa e digitar o conteúdo inexistente
+Então: nenhum conteúdo será exibido na tela para clicar

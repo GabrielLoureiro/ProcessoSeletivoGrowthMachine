@@ -1,0 +1,27 @@
+validar Login de usuários
+
+Validar login de usuário correto:
+Dado: Que o usuário queira fazer o login no sistema
+Quando: ele inserir o login correto com email e senha
+Então: quando ele clicar em "Entrar", ele será direcionado a página principal do sistema
+
+
+Validar login com campo senha em branco:
+Dado: que o usuário preencheu o campo login e deixou o campo senha em branco
+Quano: ele clicar em "Entrar"
+Então: aparecerá uma mensagem baixo do campo senha "*E-mail ou senha inválidos" e ele não conseguira realizar o login
+
+Validar login com senha errada:
+Dado: que o usuário preencheu o campo login e colocou a senha errada 
+Quano: ele clicar em "Entrar"
+Então: aparecerá uma mensagem baixo do campo senha "*E-mail ou senha inválidos" e ele não conseguira realizar o login
+
+Validar login com e-mail errado:
+Dado: que o usuário preencheu o campo login errado e colocou a senha correta
+Quano: ele clicar em "Entrar"
+Então: aparecerá uma mensagem baixo do campo senha "*E-mail ou senha inválidos" e ele não conseguira realizar o login
+
+Validar link de recuperação de senha:
+Dado: que o usuário esqueceu a senha do login
+Quando: ele clicar em "Esqueceu a senha?"
+Então: ele será levado a tela para inserir o e-mail cadastrado e recuperar a senha
